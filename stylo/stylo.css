@@ -1,0 +1,143 @@
+*{
+padding: 0;
+margin: 0;
+border: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+
+
+body{
+
+    background-color: #fff7e3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar h1 {
+
+margin-left: 70px;
+font-size: 2.5em;
+margin-top: 10px;
+}
+
+.navbar span {
+    margin-left: 135px;
+    margin-top: 10px;
+
+}
+.navbar {
+
+   
+width: 80%;
+height: 15vh;
+
+}
+
+ul li {
+
+display: inline-block;
+float: right;
+padding: 20px;
+margin-top:10px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+     background: #2b1812;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    
+ 
+}
+
+ul li a:hover {
+
+background: wheat;
+color: #2b1812;
+transition: 1.5s ease;
+
+
+}
+
+ .main {     
+      width: 80%;
+      height: 100vh;
+      margin:auto;
+      box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.568);
+        background-image: url('https://get.pxhere.com/photo/mac-white-product-table-desk-furniture-room-design-interior-design-technology-Material-property-laptop-still-life-photography-photography-glass-Transparent-material-tableware-1604510.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Cookie';
+       
+
+           
+
+ }
+
+.main h1 {
+  position: absolute;
+  top: 400px;
+  right:500px;
+  font-size: 50px;
+  
+
+}
+
+.main .btn {
+
+width: 150px;
+height:45px;
+background:#2b1812; 
+color: white;
+font-weight: bold;
+position: absolute;
+top: 500px;
+right: 650px;
+
+
+}
+
+.main .btn:hover{
+
+
+    background: wheat;
+    cursor: pointer;
+    color: #2b1812; 
+    transition: 1.5s ease;
+
+
+}
+
+footer p{
+display: inline-block;
+margin-top: 20px;
+margin-left: 10px;
+}
+footer a{
+    text-decoration: none;
+ 
+background: #2b1812; 
+color: white;
+border-radius: 5px;
+padding: 5px;
+ 
+    
+    }
+
+    footer a:hover{
+
+        background: wheat ;
+        color: #2b1812;
+        transition: 1.5s ease;
+    }
+
+    footer span {
+
+
+        float: right;
+        margin-top: 15px;
+    }
